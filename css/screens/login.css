@@ -4,6 +4,7 @@
     flex-direction: column;
     margin: 0 0 90px;
     text-align: center;
+    color: var(--white);
 }
 
 .welcome-header__title {
@@ -45,9 +46,9 @@
     padding: 20px 0;
     border: none;
     border-radius: var(--border-radius);
-    background-color: var(--secondary-color);
+    background-color: var(--pink);
     cursor: pointer;
-    color: var(--white);
+    color: var(--secondary-color);
     font-weight: 600;
 }
 
@@ -57,6 +58,7 @@
 }
 
 .login-form__a {
+    color: var(--pink);
     font-size: 13px;
     font-weight: 600;
     text-align: center;
