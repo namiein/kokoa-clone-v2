@@ -1,0 +1,23 @@
+.main-screen.settings-screen {
+    padding: 0 20px;
+}
+
+.settings__setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 20px;
+}
+
+.settings__setting i {
+    margin-right: 10px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}

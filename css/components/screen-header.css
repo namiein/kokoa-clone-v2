@@ -1,0 +1,46 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -60px auto 0;
+    padding: var(--larger-horizonal-space);
+    border-bottom: 2px solid var(--white);
+    color: var(--white);
+}
+
+.screen-header__title {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.screen-header__icons > span {
+    margin-left: 20px;
+}
+
+.screen-header__icons-alarm {
+    position: relative;
+}
+
+.screen_header__icons-alarm-icon {
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+
+.screen-header__icons span:hover i {
+    color: var(--pink);
+}
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotateCog 1s linear infinite;
+}

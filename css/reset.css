@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+h1,
+h4,
+h6,
+div,
+p,
+span,
+form,
+input,
+a,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+i,
+a,
+button,
+input[type="submit"] {
+    cursor: pointer;
+}

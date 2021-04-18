@@ -1,0 +1,22 @@
+.badge {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.notification-badge {
+    width: 8px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--pink);
+}
