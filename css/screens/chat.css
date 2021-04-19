@@ -12,9 +12,10 @@
 
 #chat-screen .alt-header {
     position: fixed;
-    top: 0;
+    top: 90px;
     z-index: 9999;
     width: 100%;
+    color: var(--secondary-color);
     background-color: var(--white);
 }
 
@@ -29,7 +30,6 @@
     }
 }
 
-/* chat.html > main */
 .chat-screen {
     display: flex;
     flex-direction: column;
@@ -64,6 +64,7 @@
     animation: fadeInLeft 0.8s ease-in-out;
 }
 
+.user-component__avatar-icon--round,
 .message-row img {
     width: 50px;
     height: 50px;
@@ -77,6 +78,7 @@
 }
 
 .message__info {
+    max-width: 350px;
     display: flex;
     align-items: flex-end;
 }
@@ -88,6 +90,49 @@
     border-radius: 15px;
     border-top-left-radius: 0;
     font-size: 18px;
+}
+
+.message__bubble-icons {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px auto;
+    background: var(--pink);
+}
+
+@keyframes scale {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        color: var(--pink);
+        background-color: var(--white);
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.message__bubble-icons--animation {
+    animation: scale 1s ease-in-out infinite;
+}
+
+.message__button {
+    width: 100%;
+    margin: 10px auto 5px;
+    padding: 10px 10px;
+    display: block;
+    background: var(--pink);
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    outline: none;
 }
 
 .message__time,

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../css/styles.css" />
+        <title>Chat - Kokoa Clone</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>SKT</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>12:00</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="../chats.html">
+                    <i class="fas fa-angle-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Dragon</h1>
+            </div>
+            <div class="alt-header__column">
+                <span>
+                    <i class="fas fa-search fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fas fa-bars fa-lg"></i>
+                </span>
+            </div>
+        </header>
+        <main class="main-screen chat-screen">
+            <div class="chat__timestamp">Thursday, April 1, 2021</div>
+            <div class="message-row">
+                <span class="user-component__avatar-icon user-component__avatar-icon--round">
+                    <i class="fas fa-dragon fa-lg"></i>
+                </span>
+                <div class="message-row__content">
+                    <span class="message__author">Dragon</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Check out our new features!</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row">
+                <span class="user-component__avatar-icon user-component__avatar-icon--round">
+                    <i class="fas fa-dragon fa-lg"></i>
+                </span>
+                <div class="message-row__content">
+                    <span class="message__author">Dragon</span>
+                    <div class="message__info">
+                        <div class="message__bubble">
+                            We are currently offering : <br />
+                            <span class="message__bubble-icons">
+                                <i class="fas fa-hippo fa-3x"></i>
+                            </span>
+                            <span class="message__bubble-icons">
+                                <i class="fas fa-kiwi-bird fa-3x"></i>
+                            </span>
+                            <span class="message__bubble-icons">
+                                <i class="fas fa-dove fa-3x"></i>
+                            </span>
+                        </div>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row">
+                <span class="user-component__avatar-icon user-component__avatar-icon--round">
+                    <i class="fas fa-dragon fa-lg"></i>
+                </span>
+                <div class="message-row__content">
+                    <span class="message__author">Dragon</span>
+                    <div class="message__info">
+                        <div class="message__bubble">
+                            <span class="message__bubble-icons message__bubble-icons--animation">
+                                <i class="fas fa-dragon fa-lg fa-3x"></i>
+                            </span>
+                            <button class="message__button">To check out more features</button>
+                        </div>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">Hi, nice to meet you</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message..." />
+                <i class="far fa-smile-wink fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </form>
+        <div class="no-mobile">
+            <span>Your Screen is Too Big</span>
+        </div>
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

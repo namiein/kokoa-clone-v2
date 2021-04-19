@@ -55,6 +55,7 @@
     align-items: center;
     background-color: var(--secondary-color);
     font-size: 132px;
+    color: var(--white);
     animation: hideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 3s;
 }
